@@ -1,12 +1,22 @@
 let firstName= 'Asinobi'
 let lastName = 'Daniel'
-let fullName= firstName + " " +  lastName
+let fullName = 'Asinobi' + " " +  'Daniel'
 let introduction= 'Hello, my name is' + fullName
-let myEyesColor= Brown
-let myHairColor= Black
+let myEyesColor= 'Brown'
+let myHairColor= 'Black'
 let myNumberOfSiblings= 4
-let myFavouriteFood= Yam
-let myFavouriteColor= Blue  
+let myFavouriteFood= 'Yam'
+let myFavouriteColor= 'Blue'
+console.log(firstName) 
+console.log(lastName)
+console.log(fullName)
+console.log(introduction)
+console.log(myEyesColor)
+console.log(myHairColor)
+console.log(myFavouriteFood)
+console.log(myNumberOfSiblings)
+console.log(myFavouriteColor)
+
 let h1 = document.querySelector('h1')
 h1.textContent = 'Congrats! You have linked your JavaScript file and it is now working'
 
